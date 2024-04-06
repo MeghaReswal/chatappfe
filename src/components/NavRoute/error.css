@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.error_page{
+  text-align: center;
+  padding: 40px;
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 15px 0;
+}
+.error_page i{
+    font-size: 70px;
+    font-weight: bold;
+}
+.num{
+    font-size: 45px;
+    font-weight: bolder;
+}
+.Error_page{
+
+    font-size: 25px;
+    font-weight: 500;
+}

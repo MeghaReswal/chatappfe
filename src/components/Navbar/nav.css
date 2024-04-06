@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Desktop menu */
+.header {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    padding: 20px 0;
+    background-color: #fff;
+    /* background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)); */
+}
+
+.header_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav_link {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.logo span {
+    color: #53cdc7;
+}
+
+.nav_link>ul {
+    display: flex;
+    list-style: none;
+    padding-right: 3rem;
+    align-items: center;
+    margin-bottom: unset;
+}
+
+.nav_link>ul>li {
+    padding: 10px 15px;
+    position: relative;
+
+}
+
+.nav_link ul li a {
+    color: #000;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nav_link ul li a:hover {
+    color: #53cdc7;
+}
+
+.menu_bar .nav_link ul li:hover .sub_menu {
+    display: block;
+
+}
+.apn_btn a {
+    padding: 5px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* .apn_btn:hover {
+    background-color: transparent;
+    border-color: #fdd100;
+} */
+
+.apn_btn a {}
+
+.menu_bar .sub_menu {
+    transition: 0.5s;
+    display: none;
+    position: absolute;
+    background-color: #ffff;
+    border-radius: 15px;
+    width: 250px;
+    top: 45px;
+    left: 0;
+}
+
+.menu_bar .sub_menu>ul {
+    padding: unset;
+
+}
+
+.menu_bar .sub_menu>ul li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+
+}
+
+.menu_bar .sub_menu ul li a {
+    color: #000;
+    padding: 10px 15px;
+}
+
+.menu_bar .sub_menu ul li:hover {
+    background-color: #53cdc7;
+}
+
+.desktopp_menu {
+    display: block;
+}
+
+@media only screen and (min-width:992px) and (max-width:1024px) {
+    .nav_link>ul {
+        padding-right: 15px;
+    }
+}

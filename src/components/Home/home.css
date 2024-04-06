@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.home_Slider .carousel-item img{
+    height: 100vh;
+}
+
+.carousel-caption{
+    bottom: 40%;
+}
+.carousel-caption h5{
+    font-size: 40px;
+}
